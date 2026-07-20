@@ -1,0 +1,190 @@
+{
+  "accuracy": 0.9625,
+  "n_samples": 1200,
+  "n_classes": 24,
+  "classes": [
+    "Acne",
+    "Arthritis",
+    "Bronchial Asthma",
+    "Cervical spondylosis",
+    "Chicken pox",
+    "Common Cold",
+    "Dengue",
+    "Dimorphic Hemorrhoids",
+    "Fungal infection",
+    "Hypertension",
+    "Impetigo",
+    "Jaundice",
+    "Malaria",
+    "Migraine",
+    "Pneumonia",
+    "Psoriasis",
+    "Typhoid",
+    "Varicose Veins",
+    "allergy",
+    "diabetes",
+    "drug reaction",
+    "gastroesophageal reflux disease",
+    "peptic ulcer disease",
+    "urinary tract infection"
+  ],
+  "classification_report": {
+    "Acne": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Arthritis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Bronchial Asthma": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Cervical spondylosis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Chicken pox": {
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1-score": 0.8695652173913043,
+      "support": 10.0
+    },
+    "Common Cold": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Dengue": {
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1-score": 0.8235294117647058,
+      "support": 10.0
+    },
+    "Dimorphic Hemorrhoids": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Fungal infection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Hypertension": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Impetigo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Jaundice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Malaria": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Migraine": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Pneumonia": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 10.0
+    },
+    "Psoriasis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Typhoid": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 10.0
+    },
+    "Varicose Veins": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "allergy": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "diabetes": {
+      "precision": 0.8181818181818182,
+      "recall": 0.9,
+      "f1-score": 0.8571428571428571,
+      "support": 10.0
+    },
+    "drug reaction": {
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1-score": 0.7777777777777778,
+      "support": 10.0
+    },
+    "gastroesophageal reflux disease": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "peptic ulcer disease": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "urinary tract infection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "accuracy": 0.9625,
+    "macro avg": {
+      "precision": 0.9664894133644134,
+      "recall": 0.9625,
+      "f1-score": 0.9618531080925078,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.9664894133644134,
+      "recall": 0.9625,
+      "f1-score": 0.9618531080925077,
+      "support": 240.0
+    }
+  }
+}
