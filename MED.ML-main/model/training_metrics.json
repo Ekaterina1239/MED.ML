@@ -1,0 +1,196 @@
+{
+  "features": "word+char",
+  "n_samples_raw": 1200,
+  "n_samples_deduplicated": 1153,
+  "n_classes": 24,
+  "evaluation": "StratifiedGroupKFold(5), groups = TF-IDF cosine >= 0.8",
+  "cv_accuracy_mean": 0.9791710005076247,
+  "cv_accuracy_std": 0.006389709925753709,
+  "cv_macro_f1_mean": 0.9797173647502595,
+  "ood_similarity_threshold": 0.3867614754390285,
+  "classes": [
+    "Acne",
+    "Arthritis",
+    "Bronchial Asthma",
+    "Cervical spondylosis",
+    "Chicken pox",
+    "Common Cold",
+    "Dengue",
+    "Dimorphic Hemorrhoids",
+    "Fungal infection",
+    "Hypertension",
+    "Impetigo",
+    "Jaundice",
+    "Malaria",
+    "Migraine",
+    "Pneumonia",
+    "Psoriasis",
+    "Typhoid",
+    "Varicose Veins",
+    "allergy",
+    "diabetes",
+    "drug reaction",
+    "gastroesophageal reflux disease",
+    "peptic ulcer disease",
+    "urinary tract infection"
+  ],
+  "classification_report": {
+    "Acne": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 46.0
+    },
+    "Arthritis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 46.0
+    },
+    "Bronchial Asthma": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 49.0
+    },
+    "Cervical spondylosis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 49.0
+    },
+    "Chicken pox": {
+      "precision": 0.9215686274509803,
+      "recall": 0.9591836734693877,
+      "f1-score": 0.94,
+      "support": 49.0
+    },
+    "Common Cold": {
+      "precision": 0.9423076923076923,
+      "recall": 1.0,
+      "f1-score": 0.9702970297029703,
+      "support": 49.0
+    },
+    "Dengue": {
+      "precision": 0.9038461538461539,
+      "recall": 0.94,
+      "f1-score": 0.9215686274509803,
+      "support": 50.0
+    },
+    "Dimorphic Hemorrhoids": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 41.0
+    },
+    "Fungal infection": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 50.0
+    },
+    "Hypertension": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "Impetigo": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 50.0
+    },
+    "Jaundice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    },
+    "Malaria": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 44.0
+    },
+    "Migraine": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 47.0
+    },
+    "Pneumonia": {
+      "precision": 0.9787234042553191,
+      "recall": 0.9787234042553191,
+      "f1-score": 0.9787234042553191,
+      "support": 47.0
+    },
+    "Psoriasis": {
+      "precision": 1.0,
+      "recall": 0.96,
+      "f1-score": 0.9795918367346939,
+      "support": 50.0
+    },
+    "Typhoid": {
+      "precision": 1.0,
+      "recall": 0.94,
+      "f1-score": 0.9690721649484536,
+      "support": 50.0
+    },
+    "Varicose Veins": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "allergy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "diabetes": {
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1-score": 0.94,
+      "support": 50.0
+    },
+    "drug reaction": {
+      "precision": 0.9387755102040817,
+      "recall": 0.92,
+      "f1-score": 0.9292929292929293,
+      "support": 50.0
+    },
+    "gastroesophageal reflux disease": {
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9787234042553191,
+      "support": 48.0
+    },
+    "peptic ulcer disease": {
+      "precision": 0.9259259259259259,
+      "recall": 1.0,
+      "f1-score": 0.9615384615384616,
+      "support": 50.0
+    },
+    "urinary tract infection": {
+      "precision": 0.9795918367346939,
+      "recall": 0.96,
+      "f1-score": 0.9696969696969697,
+      "support": 50.0
+    },
+    "accuracy": 0.9791847354726799,
+    "macro avg": {
+      "precision": 0.9804474646135354,
+      "recall": 0.9798433504607517,
+      "f1-score": 0.9799292836530866,
+      "support": 1153.0
+    },
+    "weighted avg": {
+      "precision": 0.9798238603674916,
+      "recall": 0.9791847354726799,
+      "f1-score": 0.9792812023700991,
+      "support": 1153.0
+    }
+  }
+}
